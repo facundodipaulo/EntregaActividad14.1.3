@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>14.1.2. Actividad del Taller</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+    <div class="container-fluid d-flex">
+      <a class="navbar-brand mt-2" href="#">LOREM IMPUT</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <!-- Elemento Buscar a la izquierda en pantallas más pequeñas -->
+          <li class="nav-item d-lg-none">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dolor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Amet</a>
+          </li>
+          <!-- Opciones del menú de hamburguesa (inicialmente ocultas) -->
+          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target="#opcionesCollapse">Opciones</a>
+            <div class="collapse" id="opcionesCollapse">
+              <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#">Opción 1</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Opción 2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Opción 3</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Opción 4</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Botón Buscar a la derecha en pantallas grandes -->
+      <form class="form-inline ml-auto d-none d-lg-inline-block">
+        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+      </form>
+      
+    </div>
+  </nav>
+
+  <div class="container mt-4 text-center">
+    <h1 class="font-weight-bold">LOREM IMPUT...</h1>
+  </div>
+<!-- Carrusel -->
+  <div id="text-carousel" class="container mt-4 carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <p>Exercitationem in praesentium eos maiores voluptas.</p>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <p>Fugiat nam ullam aliquid assumenda veritatis, impedit odio corporis quis expedita! Ipsa quia laboriosam natus aliquam?</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Opciones a la izquierda de las columnas -->
+    <div id="opciones" class="container mt-4 opciones d-none d-md-block">
+        
+        <a href="#">Opción 1</a>
+        <a href="#">Opción 2</a>
+        <a href="#">Opción 3</a>
+        <a href="#">Opción 4</a>
+      </div>
+
+      <div class="container mt-4">
+        <div class="row">
+          <!-- En tamaño sm (≥576px), muestra una sola columna -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus euismod felis ut diam bibendum, a aliquet arcu ultrices. Curabitur pharetra bibendum vestibulum.</p>
+          </div>
+          <!-- En tamaño sm (≥576px), muestra una sola columna -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+            <p>Maecenas eget libero vitae justo dapibus vestibulum. Ut a bibendum ipsum. Nulla nec felis ut erat posuere consectetur. Fusce eu bibendum massa, a elementum ligula.</p>
+          </div>
+          <!-- En tamaño sm (≥576px), muestra una sola columna -->
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+            <p>Maecenas vitae efficitur ligula. Vestibulum malesuada magna ac nisi viverra, id sodales ex congue.</p>
+          </div>
+        </div>
+      </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
